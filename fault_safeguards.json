@@ -1,0 +1,46 @@
+[
+    {
+        "id": "fault_punctured_tires",
+        "type": "fault",
+        "name": { "str": "Punctured tire" },
+        "description": "MOD-RTD: Safeguarded to not modify stats. noise + reduced steer capacity still embedded in code.",
+        "price_modifier": 1,
+        "//COMMENT": "oops it be leakin.",
+        "contact_area_mod": 1,
+        "rolling_resistance_mod": 1,
+        "vehicle_move_penalty_mod": 1,
+        "item_suffix": "'deflating'"
+    },
+    {
+        "id": "fault_flat_tire_riding_on_rims",
+        "type": "fault",
+        "name": { "str": "Down to rims" },
+        "//COMMENT": "yeah nah, I'd repair that.",
+        "description": "MOD-RTD: Safeguarded to not modify stats. Making sound + taking damage + reduced steering is embedded in source code.",
+        "price_modifier": 1,
+        "contact_area_mod": 1,
+        "rolling_resistance_mod": 1,
+        "vehicle_move_penalty_mod": 1,
+        "item_suffix": "'rim'"
+    },
+    {
+        "type": "fault_fix",
+        "id": "mend_fault_punctured_tires_kit",
+        "name": "MOD-RTD: plug hole that totally doesn't exist!",
+        "success_msg": "MOD-RTD: you're welcome!",
+        "time": "1 s",
+        "faults_removed": [ "fault_punctured_tires" ],
+        "mod_degradation": 0,
+        "skills": { "mechanics": 1 }
+    },
+    {
+        "type": "fault_fix",
+        "id": "mend_fault_tire_riding_on_rims",
+        "name": "MOD-RTD: manifest a fixed tire",
+        "success_msg": "MOD-RTD: think of it as chanelling the goo into a functioning wheel",
+        "time": "1 s",
+        "faults_removed": [ "fault_flat_tire_riding_on_rims" ],
+        "mod_degradation": 0,
+        "skills": { "mechanics": 1 }
+    }
+]
