@@ -10,5 +10,5 @@ TODO:
 note: if moving up/down stream then I'd suggest rewriting wheels_immune.json to update to current wheel stats. It just overrides all of the wheels in '/json/items/vehicle/wheel.json' to versions without the 'faults' entry.
 
 files:
-    fault_safeguards.json   : removes most penalties to faults + gives free mend recipe
-    wheels_immune.json      : removes ability for all of the wheels to get faults. 
+\n\tfault_safeguards.json   : removes most penalties to faults + gives free mend recipe
+\n\twheels_immune.json      : removes ability for all of the wheels to get faults. 
