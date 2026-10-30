@@ -25,7 +25,7 @@
     },
     {
         "type": "fault_fix",
-        "id": "mend_fault_punctured_tires_kit",
+        "id": "mend_fault_punctured_tires_kit_2",
         "name": "MOD-RTD: plug hole that totally doesn't exist!",
         "success_msg": "MOD-RTD: you're welcome!",
         "time": "1 s",
@@ -37,7 +37,7 @@
         "type": "fault_fix",
         "id": "mend_fault_tire_riding_on_rims",
         "name": "MOD-RTD: manifest a fixed tire",
-        "success_msg": "MOD-RTD: think of it as chanelling the goo into a functioning wheel",
+        "success_msg": "MOD-RTD: think of it as chanelling the blob into a fully functional wheel",
         "time": "1 s",
         "faults_removed": [ "fault_flat_tire_riding_on_rims" ],
         "mod_degradation": 0,
