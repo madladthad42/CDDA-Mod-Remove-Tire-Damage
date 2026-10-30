@@ -1,0 +1,11 @@
+[
+    {
+      "type": "MOD_INFO",
+      "id": "remove-wheel-popping",
+      "name": "Remove Tire Damage",
+      "authors": "Madladthad42",
+      "description": "Removes how wheels can be poppped by driving over random shit.",
+      "category": "vehicles",
+      "version": "experimental: 2026-04-07-1606"
+    }
+  ]
