@@ -1,12 +1,14 @@
 # CDDA-Mod-Remove-Tire-Damage
-Still in development, first time doing cdda, bear with me XD. versioning will be whatever version I'm playing on, move up/down stream at own peril :3
+Should work great! It's my first time modding cdda, so bear with me XD. versioning will be whatever version I'm playing on, move up/down stream at your own peril :3
 
-Current status: loads
-1. repairing the faults is now free
-2. side effect of removing the flat tire flag (?) is that when you pop you get deflating & rims at once, should repair both
-3. faults only cause noise + degredation as those are embedded in code.
+Current status: works wondrously
 
 TODO:
-- [ ] make the mod work
+- [x] make the mod work
 - [ ] fix the versioning to be correct format
-- [ ] fix deflating/rims both procing off of one pop
+
+note: if moving up/down stream then I'd suggest rewriting wheels_immune.json to update to current wheel stats. It just overrides all of the wheels in '/json/items/vehicle/wheel.json' to versions without the 'faults' entry.
+
+files:
+    fault_safeguards.json   : removes most penalties to faults + gives free mend recipe
+    wheels_immune.json      : removes ability for all of the wheels to get faults. 
